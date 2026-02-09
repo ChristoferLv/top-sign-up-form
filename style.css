@@ -10,6 +10,9 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     font-size: large;
+
+    --greenish-color: #596d48;
+    --right-space-bg-color: #f9fafb;
 }
 
 .left {
@@ -20,17 +23,17 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: var(--right-space-bg-color);
 }
 
 .text-space {
-    background-color: #f9fafb;
-
     padding: 100px 350px 30px 30px;
 }
 
 .form-space {
     padding: 5px 300px 30px 30px;
     box-shadow: 0px 5px 5px -1px #cecece;
+    background-color: white;
 }
 
 form {
@@ -58,12 +61,10 @@ form input:focus {
 }
 
 .bottom {
-    background-color: #f9fafb;
     font-weight: normal;
 
     padding: 5px 250px 30px 30px;
     flex-grow: 1;
-    z-index: -1;
 }
 
 .bottom p {
@@ -117,15 +118,22 @@ form input:focus {
     width: 15%;
 }
 
-button {
+.bottom input {
     margin-top: 20px;
     padding: 10px 45px;
     color: white;
-    background-color: #596d48;
+    background-color: var(--greenish-color);
     font-weight: bold;
 
     border-radius: 5px;
     border: none;
+
+    cursor: pointer;
+}
+
+.bottom input:active {
+    transform: scale(0.95);
+    background-color: var(--greenish-color);
 }
 
 label {
@@ -140,7 +148,7 @@ label {
 }
 
 .bottom a {
-    color: #596d48;
+    color: var(--greenish-color);
     text-decoration: none;
     font-weight: bold;
 }
