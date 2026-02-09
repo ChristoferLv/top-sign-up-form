@@ -59,9 +59,9 @@ form input:focus {
     border-color: rgb(0, 0, 255);
 }
 
-password:invalid,
-confirm_password:invalid {
-  color: aquamarine;
+#password:invalid,
+#confirm_password:invalid {
+  border-color: red;
 }
 
 .bottom {

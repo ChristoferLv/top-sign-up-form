@@ -46,11 +46,13 @@
                 </div>
                 <div class="form-item">
                     <label for="password">PASSWORD</label>
-                    <input type="" id="password" minlength="6" maxlength="16" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+                    <input type="" id="password" minlength="8" maxlength="16"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
                 </div>
                 <div class="form-item">
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="" id="confirm_password" minlength="6" maxlength="16">
+                    <input type="" id="confirm_password" minlength="8" maxlength="16"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
                 </div>
             </form>
         </div>
@@ -59,7 +61,6 @@
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
-
 </body>
 
 </html>
