@@ -46,6 +46,10 @@ Um formulário de cadastro (sign-up) moderno contendo:
 - HTML5 (formulários e validação)
 - CSS3 (Flexbox, @font-face, pseudo-classes)
 
+## Visualization
+
+<img width="1920" height="919" alt="sign up form screenshot" src="https://github.com/user-attachments/assets/44aee70d-f725-4af4-8e22-5699aba10632" />
+
 ---
 
 Projeto desenvolvido seguindo: [The Odin Project - Sign Up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
