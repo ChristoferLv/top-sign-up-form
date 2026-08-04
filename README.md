@@ -46,6 +46,10 @@ A modern sign-up form containing:
 - HTML5 (forms and validation)
 - CSS3 (Flexbox, `@font-face`, pseudo-classes)
 
+## Visualization
+
+<img width="1920" height="919" alt="sign up form screenshot" src="https://github.com/user-attachments/assets/6dac706a-3a6c-4164-b3d3-32437835c25f" />
+
 ---
 
 Project developed following: [The Odin Project - Sign Up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
